@@ -4,9 +4,9 @@ const Navbar = () => {
  
   return (
     
-<nav className="green">
+<nav className="green navbar-light navbar-expand-lg navbar">
   <div className="navbar-brand" ><img src={ProPic}  className="rounded mx-auto d-block propic" alt="profilepic"></img></div>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button className="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
 

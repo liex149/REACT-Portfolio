@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Condensed:wght@100&display=swap');
+
+:root {
+  --primary-white: #bcd8b7;
+}
+
+body {
+  font-family: "Roboto Condesed" 'Times New Roman', Times, serif;
+}
+
+
 /* navbar */
 img {
     max-width: 200px; 
@@ -6,4 +17,21 @@ img {
 
   .green {
     background-color: #6ba292;
+  }
+
+
+  /* menu link */
+
+  nav a.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+  }
+
+  nav ul li {
+    text-transform: uppercase;
+  }
+
+  .navbar-nav > li > a {
+    color: var(--primary-white) !important;
   }

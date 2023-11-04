@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
     return(
         <section id='about'>
-<div class="text-light bg-dark">
+<div className="text-light bg-dark">
     <h1>
         Hello! My name is Linh.
     </h1>

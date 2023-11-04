@@ -12,12 +12,12 @@ body {
 
 
 /* navbar */
-img {
-    max-width: 200px; 
-    height: 200px; 
+.propic {
+   width: 16.25rem; 
   }
 
   .green {
+    height: 4rem;
     background-color: #6ba292;
   }
 
@@ -55,3 +55,12 @@ img {
   .navbar-nav > li > a:hover {
     border-top: 0.1875rem solid var(--primary-feldfrau);
   }
+
+  /* header */
+.header {
+  position: relative;
+  background: url(Japan.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh
+}

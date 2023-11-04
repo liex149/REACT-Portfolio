@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Condensed:wght@100&display=swap');
 
 :root {
-  --primary-white: #bcd8b7;
+  --primary-mint: #bcd8b7;
+  --primary-feldfrau: #4E5D4B;
+  --primary-camblue: #6ba292;
 }
 
 body {
@@ -23,6 +25,7 @@ img {
   /* menu link */
 
   nav a.nav-link {
+    font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.0375rem;
     cursor: pointer;
@@ -33,5 +36,22 @@ img {
   }
 
   .navbar-nav > li > a {
-    color: var(--primary-white) !important;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--primary-mint) !important;
+    border-top: 0.1875rem solid var(--primary-camblue);
+  }
+
+  .navbar-brand {
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6rem !important;
+  }
+
+  .navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+    border-top: 0.1875rem solid var(--primary-feldfrau);
+  }
+
+  .navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-feldfrau);
   }

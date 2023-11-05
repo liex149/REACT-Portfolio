@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
 import Resume from './components/Resume';
+import Form from './components/Form';
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Project />
     <Contact />
     <Resume />
+    <Form/>
   </main>
   </>
   );

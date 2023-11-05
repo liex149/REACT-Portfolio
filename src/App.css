@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Condensed:wght@100&display=swap');
 
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+
 :root {
   --primary-white: white;
   --primary-feldfrau: #6a3636;
@@ -110,6 +123,8 @@ body {
   text-align: center;
 }
 
+
+
 /* contact section */
 #contact{
   background-color: #6a3636;
@@ -123,5 +138,7 @@ label {
   color: white;
  }
 
+ 
+
+
 /* sizing website for other devices */
-@media(max-width: 768px)

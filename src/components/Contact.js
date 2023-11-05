@@ -1,4 +1,3 @@
-
 import React from "react";
 
 export default function Contact() {
@@ -15,6 +14,7 @@ export default function Contact() {
     }
   
     function handleSubmit(e) {
+      
       e.preventDefault();
       fetch("/", {
         method: "POST",

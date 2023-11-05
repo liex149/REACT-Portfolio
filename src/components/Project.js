@@ -4,14 +4,14 @@ import { projects } from "./data";
 
 const Projects = () => {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-500 body-font ">
+    <section id="projects" className="text-light-400 bg-gray-500 body-font ">
       <div className="container px-2 py-5 mx-auto text-center lg:px-40 ">
         <div className="flex flex-col w-full mb-10">
           {/* <Sparkles className="mx-auto inline-block w-10 mb-4" /> */}
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-dark">
-            Apps I've Built
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-light">
+            PROJECTS
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-light">
             These are a few apps/websites that I have worked on. Please click on
             the link to check them out!
           </p>

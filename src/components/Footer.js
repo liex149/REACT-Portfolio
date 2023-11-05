@@ -4,9 +4,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer ">
+    <footer className="footer text-center">
         
-      <div className="content has-text-centered  page-container mt-5">
+      <div className="content text-centered  page-container mt-5">
         <body>
         <p>
           <strong>My Full Stack Development Portfolio on </strong>
@@ -19,7 +19,7 @@ function Footer() {
             href="https://www.linkedin.com/in/linh-lien-4b4a0a51"
             target="_blank" rel="noreferrer"
           >
-            LinkedIn
+             | LinkedIn
           </a>{" "}
           
           

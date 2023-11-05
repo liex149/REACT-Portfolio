@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
     return(
         <div>
-    <section id='about' className="d-flex flex-wrap mountain">
+    <section id='about' className="d-flex flex-wrap mountain p-4">
 <div  className="text-light ">
 <h1>Hello! My name is Linh.</h1>
     <p class="text-light">

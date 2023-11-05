@@ -15,8 +15,8 @@
 
 :root {
   --primary-white: white;
-  --primary-feldfrau: #6a3636;
-  --primary-camblue: #CC4A4A;
+  --primary-feldfrau: #757787;
+  --primary-camblue: #001284;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 
   .green {
     height: 4rem;
-    background-color: #AB7777;
+    background-color: #001284;
   }
 
 
@@ -73,12 +73,19 @@ body {
   /* header */
 .header {
   position: relative;
-  background: url(Japan.jpg) no-repeat;
+  background: url(mtfuji.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 60vh
+  height: 90vh
 }
 
+#about {
+  position: relative;
+  background: url(travel.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh
+}
 .main-info{
   display: flex;
   flex-direction: column;
@@ -94,20 +101,18 @@ body {
 }
 
 /* About section */
-#about {
+.mountain {
   
-  background-color: #FAB9B9;
+  
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  top: 0;
-  left:0;
-  right: 0;
-  bottom: 0;
+  justify-content: center; 
   text-align: center;
-  font-family: "Roboto Condesed" 'Times New Roman', Times, serif;
-}
+ 
+
+
+  
+} 
 
 
 /* project section */
@@ -138,7 +143,17 @@ label {
   color: white;
  }
 
- 
-
+ /* footer section */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5rem
+}
 
 /* sizing website for other devices */

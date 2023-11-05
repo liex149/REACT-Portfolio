@@ -5,6 +5,11 @@ export default function About() {
         <div>
     <section id='about' className="d-flex flex-wrap mountain p-4">
 <div  className="text-light ">
+<img 
+className="rounded-circle border border-dark shadow-lg img-fluid m-3 " 
+src='images/profilepic.jpg' 
+alt="Linh Lien"
+width="400"/>
 <h1>Hello! My name is Linh.</h1>
     <p class="text-light">
     I have been a nurse for almost 4 years now. I love helping people and working as an nurse I see a lot of changes

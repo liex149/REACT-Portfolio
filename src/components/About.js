@@ -2,20 +2,18 @@ import React from "react";
 
 export default function About() {
     return(
-        <section id='about'>
-<div className="text-light bg-dark">
-    <h1>
-        Hello! My name is Linh.
-    </h1>
-    <p class="text-info">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+        <div>
+    <section id='about'>
+<div  className="text-dark">
+<h1>Hello! My name is Linh.</h1>
+    <p class="text-dark">
+    REACT is so much fun!
     </p>
 </div>
 
 
         </section>
+        </div>
     )
 }
 

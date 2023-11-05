@@ -27,6 +27,7 @@ export default function Contact() {
 
 
   return (
+    <div>
     <section id = 'contact' >
       <div >
         <div >
@@ -35,16 +36,14 @@ export default function Contact() {
           <div >
             
             <div >
-              <h2 >
-                EMAIL
-              </h2>
-              <div >
-                lienx149@gmail.com
-              </div>
-              <h2 >
-                PHONE
-              </h2>
-              <p >123-456-7890</p>
+              <h6 >
+                EMAIL: lienx149@gmail.com
+              </h6>
+             
+              <h6 >
+                PHONE: 555-555-5555
+              </h6>
+              
             </div>
           </div>
         </div>
@@ -53,22 +52,21 @@ export default function Contact() {
           name="contact"
           onSubmit={handleSubmit}
           >
-          <h2 >
-            Hire Me
-          </h2>
-          <p >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p>
+          <h6 >
+            Contact: Want to get in touch? Fill out this form to send me a message.
+          </h6>
+     
           <div >
             <label >
               Name
             </label>
             <input
+              className="form-control"
               type="text"
               id="name"
               name="name"
               onChange={(e) => setName(e.target.value)}
+              placeholder="Enter name"
             />
           </div>
           <div >
@@ -76,10 +74,12 @@ export default function Contact() {
               Email
             </label>
             <input
+              className="form-control"
               type="email"
               id="email"
               name="email"
               onChange={(e) => setEmail(e.target.value)}
+              placeholder="Enter email"
             />
           </div>
           <div >
@@ -88,9 +88,11 @@ export default function Contact() {
               Message
             </label>
             <textarea
+              className="form-control"
               id="message"
               name="message"
               onChange={(e) => setMessage(e.target.value)}
+              placeholder="Enter message"
             />
           </div>
           <button
@@ -101,5 +103,6 @@ export default function Contact() {
         </form>
       </div>
     </section>
+    </div>
   );
 }

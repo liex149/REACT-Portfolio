@@ -7,7 +7,7 @@ export default function About() {
 <div  className="text-light ">
 <img 
 className="rounded-circle border border-dark shadow-lg img-fluid m-3 " 
-src='images/profilepic.jpg' 
+src='images/profilepic.jpg'  
 alt="Linh Lien"
 width="400"/>
 <h1>Hello! My name is Linh.</h1>

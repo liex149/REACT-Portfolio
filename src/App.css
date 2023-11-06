@@ -56,7 +56,7 @@ body {
   background: url(mt.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh
+  height: 100vh
 }
 
 #about {
@@ -64,8 +64,18 @@ body {
   background: url(travel.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh
+  height: 100vh
 }
+
+#Reslink{
+
+    position: relative;
+    background: url(code.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:auto
+  }
+
 .main-info{
   display: flex;
   flex-direction: column;
@@ -79,6 +89,14 @@ body {
   text-align: center;
   color:#fcfcfc;
   font-family: "Roboto Condesed" 'Times New Roman', Times, serif;
+}
+
+/* resume section */
+.proficiencies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center;
 }
 
 /* About section */

@@ -15,21 +15,21 @@ export const projects = [
   },
   {
     title: "Employee Tracker",
-    description:"If you want a secure password then this is the link for you to generate a secure password",
+    description:"Using CMS, this site helps managhe a company's employee database",
     image: "./images/tracker.jpg",
     link: "https://github.com/liex149/employee-tracker",
   },
   {
     title: "E-Commerce Backend",
-    description:"If you want a secure password then this is the link for you to generate a secure password",
-    image: "./images/ecommerce.jpg",
+    description:"This is a backend of an e-commerce site",
+    image: "./images/ecommerce1.jpg",
     link: " https://github.com/liex149/e-commerce-back-end",
   },
   {
-    title: "Password Generator",
-    description:"If you want a secure password then this is the link for you to generate a secure password",
+    title: "Weather App",
+    description:"Weather app designed to check the weather no matter where you are",
     image: "./images/password.jpg",
-    link: " https://liex149.github.io/Password-Generator/",
+    link: " https://liex149.github.io/weather-dashboard/",
   },
   {
     title: "Social Network API",

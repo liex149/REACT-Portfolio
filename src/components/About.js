@@ -11,7 +11,7 @@ src='images/profilepic.jpg'
 alt="Linh Lien"
 width="400"/>
 <h1>Hello! My name is Linh.</h1>
-    <p class="text-light">
+    <p class="text-light h5">
     I have been a nurse for almost 4 years now. I love helping people and working as an nurse I see a lot of changes
     that go on with our EPIC system. With that, I wanted to learn what goes in creating EPIC 
     as well as the user side. When I talk about the user side, I am talking about the webpages where the patients go 

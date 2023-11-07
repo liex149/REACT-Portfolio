@@ -19,8 +19,8 @@ function Resume() {
           <span>Download My Resume</span>
         </a>
 			</div>
-      
-			<div className="p-3 text-light proficiencies">
+      <div className="">
+			<div className="p-2 m-3 text-light proficiencies">
 				<h5 >Front-End Proficiencies</h5>
 				
 					<ul>HTML5</ul>
@@ -43,7 +43,7 @@ function Resume() {
 					<ul>Progressive Web Appulcations (PWA)</ul>
 			
 				<br></br>
-				<h5>Dev Tool Proficiencies</h5>
+				<h5 >Dev Tool Proficiencies</h5>
 			
 					<ul>Git</ul>
 					<ul>npm</ul>
@@ -61,6 +61,7 @@ function Resume() {
 					<ul>MongoDB</ul>
 					<ul>Mongoose</ul>
 				
+			</div>
 			</div>
 		</section>
     </div>

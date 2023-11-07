@@ -30,7 +30,7 @@ export default function Contact() {
 
   return (
     <div>
-    <section id = 'contact' >
+    <section id = 'contact' className="text-center p-5">
       <div >
         <div >
          

@@ -16,11 +16,12 @@ const Projects = () => {
             the link to check them out!
           </p>
         </div>
-        <div className="d-flex  flex-wrap text-center">
+        <div>
+        <div className="d-flex flex-wrap text-center">
           {projects.map((project) => (
             <div className="p-3 ">
               <div
-                className="card d-flex  mb-3 d-flex flex-wrap"
+                className="card d-flex  m-3 flex-wrap"
                 style={{ width: "300px", height: "500px" }}
               >
                 <img
@@ -42,6 +43,7 @@ const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
     </section>

@@ -4,11 +4,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer text-center">
+    <footer className=" text-center">
         
-      <div className="content text-centered  page-container mt-5">
+      <div className="content text-centered  page-container p-3 mt-5">
         <body>
-        <p>
+        <p id="footer">
           <strong>My Full Stack Development Portfolio on </strong>
           <a href="https://github.com/liex149" target="_blank" rel="noreferrer">
             GitHub |

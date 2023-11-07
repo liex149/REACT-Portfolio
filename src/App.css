@@ -56,7 +56,7 @@ body {
   background: url(mt.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh
+  height: 95vh
 }
 
 #about {
@@ -64,7 +64,7 @@ body {
   background: url(travel.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh
+  height: 180vh
 }
 
 #Reslink{
@@ -82,7 +82,7 @@ body {
     background: url(outdoor.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height:auto
+    height:180vh
   }
 
   #contact{
@@ -91,8 +91,16 @@ body {
     background: url(circle.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 1000px
+    height: 180vh
   }
+
+#footer {
+  position:absolute;
+  left:30px;
+  bottom: 1px;
+  right:30px;
+  padding-bottom:60px;
+}
 
 .main-info{
   display: flex;

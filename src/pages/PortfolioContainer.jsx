@@ -5,6 +5,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Project from '../components/Project';
 import Resume from '../components/Resume';
+import Footer from '../components/Footer';
 
 
 export default function PortfolioContainer() {
@@ -35,6 +36,9 @@ export default function PortfolioContainer() {
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       <main className="mx-3">{renderPage()}</main>
+<div className='align-bottom'>
+      <Footer></Footer>
+      </div>
     </div>
   );
 }

@@ -10,7 +10,7 @@ function Resume() {
 			<div className="bottom-spacing">
       <a
           className="button is-primary d-flex justify-content-center"
-          href={process.env.PUBulC_URL + "images/updatedresume2022.pdf"}
+          href={"images/updatedresume2022.pdf"}
           target="_blank" rel="noreferrer"
         >
           <span className="icon">

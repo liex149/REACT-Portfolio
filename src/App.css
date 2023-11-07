@@ -76,6 +76,15 @@ body {
     height:auto
   }
 
+  #projects{
+
+    position: relative;
+    background: url(outdoor.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:auto
+  }
+
 .main-info{
   display: flex;
   flex-direction: column;

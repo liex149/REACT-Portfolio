@@ -9,18 +9,11 @@ function Footer() {
       <div className="content text-centered  page-container p-3 mt-5">
         <body>
         <p id="footer">
-          <strong>My Full Stack Development Portfolio on </strong>
-          <a href="https://github.com/liex149" target="_blank" rel="noreferrer">
-            GitHub |
-          </a>
-       
-         
-          <a
-            href="https://www.linkedin.com/in/linh-lien-4b4a0a51"
-            target="_blank" rel="noreferrer"
-          >
-             | LinkedIn
-          </a>{" "}
+          <strong> </strong>
+          
+          <a href="https://www.linkedin.com/in/linh-lien-4b4a0a51"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" className="icon"/></a>
+          <a href="https://github.com/liex149"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Github" className="icon"/></a>
+         {" "}
           
           
         </p></body>

@@ -82,7 +82,7 @@ body {
     background: url(outdoor.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height:180vh
+    height:auto
   }
 
   #contact{

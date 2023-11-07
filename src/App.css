@@ -70,7 +70,7 @@ body {
 #Reslink{
 
     position: relative;
-    background: url(climb.jpg) no-repeat;
+    background: url(night.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height:auto
@@ -83,6 +83,15 @@ body {
     background-size: cover;
     background-position: center;
     height:auto
+  }
+
+  #contact{
+
+    position: relative;
+    background: url(circle.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px
   }
 
 .main-info{
@@ -134,11 +143,11 @@ body {
 
 
 /* contact section */
-#contact{
+/* #contact{
   background-color: #6a3636;
   padding: 40px;
   
-}
+} */
 label {
   color: white;
 }

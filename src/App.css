@@ -64,7 +64,7 @@ body {
   background: url(travel.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 180vh
+  height: 95vh
 }
 
 #Reslink{
@@ -91,7 +91,7 @@ body {
     background: url(circle.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 110vh; 
+    height: 95vh; 
     color: black;
   }
 

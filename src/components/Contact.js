@@ -17,13 +17,15 @@ export default function Contact() {
       
       e.preventDefault();
       fetch("/", {
-        method: "POST",
+        method: "GET",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
+        
       })
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
     }
+  
 
 
   return (

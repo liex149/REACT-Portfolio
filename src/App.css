@@ -91,13 +91,14 @@ body {
     background: url(circle.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 180vh
+    height: 110vh; 
+    color: black;
   }
 
 #footer {
   position: relative;
   left: 0;
-  bottom: 0;
+  bottom: 40px;
   width: 100%;
   background-color: black;
   color: white;

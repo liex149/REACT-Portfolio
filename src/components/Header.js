@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './Footer';
+
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
         </div>
 
         <div className='text-center'>
-      <Footer />
+      
       </div>   
    
      </body>

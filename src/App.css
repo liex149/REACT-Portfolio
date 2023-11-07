@@ -95,11 +95,13 @@ body {
   }
 
 #footer {
-  position:absolute;
-  left:30px;
-  bottom: 1px;
-  right:30px;
-  padding-bottom:60px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .main-info{
